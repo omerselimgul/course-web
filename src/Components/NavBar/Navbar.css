@@ -1,0 +1,48 @@
+.navbar-container {
+  border-bottom: 2px solid #e7e7ec;
+  height: 80px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 0px 5rem;
+  justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  opacity: 1;
+  background-color: #ffffff;
+}
+.navbar-user {
+  font-style: italic;
+  font-family: "Georgia, serif";
+  font-size: 19px;
+  color: #4a4a4a;
+  text-decoration: none;
+}
+
+#navbar-right {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #77838f;
+  text-transform: capitalize;
+}
+#navbar-button {
+  padding: 0.6rem;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #77838f;
+  border: 1px solid black;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+#navbar-button:hover {
+  background-color: #2f2d51;
+  color: white;
+}

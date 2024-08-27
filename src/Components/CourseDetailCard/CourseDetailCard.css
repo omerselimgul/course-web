@@ -1,0 +1,89 @@
+.course-card-container {
+  cursor: pointer;
+}
+
+.course-card {
+  background-color: white;
+  box-sizing: border-box;
+  padding: 0.6rem;
+  height: min-content;
+  border-radius: 0.2rem;
+  border: 1px solid #e7e7ec;
+  /* box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.course-header {
+  height: 60%;
+  overflow: hidden;
+  border-radius: 0.2rem;
+}
+
+.course-image {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 0.2rem;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transition: all 150ms ease-in-out;
+}
+.course-image:hover {
+  transform: scale(1.2);
+}
+
+.course-header {
+  height: 60%;
+  overflow: hidden;
+}
+
+.course-content {
+  box-sizing: border-box;
+  height: 30%;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.course-card-container {
+  transition: transform 0.2s ease-out;
+}
+
+.course-card-container::after {
+  content: "";
+  background: linear-gradient(
+      45deg,
+      #ff0000 0%,
+      #ff9a00 10%,
+      #d0de21 20%,
+      #4fdc4a 30%,
+      #3fdad8 40%,
+      #2fc9e2 50%,
+      #1c7fee 60%,
+      #5f15f2 70%,
+      #ba0cf8 80%,
+      #fb07d9 90%,
+      #ff0000 100%
+    )
+    repeat 0% 0% / 300% 100%;
+  position: absolute;
+  inset: -3px;
+  border-radius: 16px;
+  filter: blur(8px);
+  z-index: -1;
+  animation: rgb 3s linear infinite;
+}
+
+@keyframes rgb {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

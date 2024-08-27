@@ -1,0 +1,17 @@
+
+
+.LayoutContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .ListContainer {
+    flex: 0 0 auto;
+    width: 30%; /* Liste bölgesinin genişliği */
+  }
+  
+  .ContentContainer {
+    flex: 1;
+    padding: 20px; /* İçeriklerin boşluğu */
+  }
+  

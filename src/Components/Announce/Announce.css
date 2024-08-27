@@ -1,0 +1,33 @@
+.announce-container {
+    margin-bottom: 20px;
+  }
+  
+  .announce-card {
+    width: 480px; 
+    height: 400px; 
+    background-color: rgba(250, 211, 105, 0.144);
+    border-radius: 9px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    transition: box-shadow 0.3s ease;
+  
+    &:hover {
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+
+  
+  .announce-title {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .announce-time {
+    font-size: 0.95rem;
+    color: #353535;
+      display: flex;
+    justify-content:end;
+    align-items: center;
+  }
+  

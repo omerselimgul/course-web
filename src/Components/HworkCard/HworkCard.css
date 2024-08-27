@@ -1,0 +1,35 @@
+.hwork-card-container {
+    cursor: pointer;
+  }
+  
+  .hwork-button {
+    background-color: #fff !important;
+    color: #3e99e7;
+    border: 1px solid #a6a4a48f !important;
+    box-shadow: none !important;
+    margin-top: 10px !important;
+    margin-bottom: 17px !important;
+    transition: background-color 0.3s ease, color 0.3s ease ;
+  }
+  
+  .hwork-button:hover {
+    background-color: #f2efef !important;
+  }
+  
+  .hwork-card {
+    background-color: white;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    border: 1px solid #c7c7c7;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hwork-content {
+    margin: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  

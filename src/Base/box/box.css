@@ -1,0 +1,11 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1% 10%;
+  height: 100%;
+  justify-content: space-evenly;
+
+  /* box-sizing: border-box; */
+}
